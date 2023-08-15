@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <header>
+      <nav>
+        <ul>
+          <li><a href="list.html">tack 1</a></li>
+          <li><a href="table.html">tack 2</a></li>
+          <li><a href="form.html">tack 3</a></li>
+        </ul>
+      </nav>
+    </header>
+    <main>
+      <section>
+        <h1>Форма</h1>
+        <form name="form">
+          <div role="group" aria-labelledby="name">
+            <p id="name">Введіть дані</p>
+            <label>
+              Ім'я
+              <br />
+              <input type="text" name="user-name" placeholder="Alex" autofocus />
+            </label>
+            <br />
+            <label>
+              Призвіще
+              <br />
+              <input type="text" name="user-surname" placeholder="Jackson" />
+            </label>
+            <br />
+            <label>
+              Email
+              <br />
+              <input type="email" name="user-email" placeholder="alex@gmail.com" />
+            </label>
+            <br />
+            <label>
+              Tel
+              <br />
+              <input type="tel" name="user-tel" placeholder="+380993943756" />
+            </label>
+            <br />
+            <label>
+              Кометар
+              <br />
+              <textarea
+                name="user-coment"
+                rows="10"
+                cols="40"
+                placeholder="Мені сподобалося..."
+              ></textarea>
+            </label>
+            <br />
+          </div>
+          <button type="submit">Submit</button>
+        </form>
+      </section>
+    </main>
+  </body>
+</html>
